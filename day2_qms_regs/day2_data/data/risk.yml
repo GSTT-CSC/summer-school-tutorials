@@ -1,0 +1,51 @@
+risk_levels:
+    - label: Low
+      description: Acceptable
+    - label: Medium
+      description: Investigate further risk reduction. Should be reduced as low as reasonably practicable.
+    - label: High
+      description: Unacceptable. Further risk mitigations are required.
+risk_probability_levels:
+    - label: Extremely Low
+      description: Extremely unlikely
+    - label: Low
+      description: Unlikely
+    - label: Medium
+      description: Somewhat likely
+    - label: High
+      description: Likely
+    - label: Extremely High
+      description: Extremely likely
+risk_severity_levels:
+    - label: Negligible
+      description: Inconvenience or temporary discomfort
+    - label: Minor
+      description: Results in temporary injury or impairment not requiring professional medical intervention
+    - label: Serious
+      description: Results in injury or impairment requiring professional medical intervention
+    - label: Critical
+      description: Results in permanent impairment or life-threatening injury
+    - label: Catastrophic
+      description: Results in patient death
+risk_acceptability_matrix:
+    - [Low, Low, Low, Low, Low]
+    - [Low, Low, Low, Low, Medium]
+    - [Low, Low, Low, Medium, Medium]
+    - [Low, Low, Medium, Medium, High]
+    - [Low, Medium, Medium, High, High]
+risks:
+    - hazard_id: HZ-01
+      hazard: Inaccurate Earth circumference estimate
+      software_item: EarthMeasurer
+      causes: Gnomon is not perfectly vertical.<br>Shadow angle is measured at the wrong time of day.<br>Atmospheric refraction bends sunlight, shifting the apparent shadow angle.
+      effects: The calculated circumference is incorrect.
+      harm: Ships navigate using maps with incorrect scale, increasing risk of running aground or missing port.
+      severity: Serious
+      likelihood: Low
+      risk: Low
+      risk_control: HZ-01-01 validates that shadow angles are within physically plausible bounds before computing the circumference.
+      residual_severity: Serious
+      residual_likelihood: Extremely Low
+      residual_risk: Low
+      comment: Eratosthenes got within 2% of the correct answer using a stick. Good enough for v1.0.0.
+    # Add your own hazards below this line

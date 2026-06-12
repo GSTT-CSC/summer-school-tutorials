@@ -1,0 +1,15 @@
+requirements:
+  - id: SRS-001
+    title: Accept shadow angle observations as inputs
+    type: Input/Output
+    description: The measurement tool MUST accept a noon shadow angle (in degrees) recorded at two locations with a known north-south separation distance.
+    linked_risk_control:
+    priority: v1.0.0
+  # Add your own user requirements below this line
+
+sys_des_spec:
+  - id: SDS-001
+    title: Shadow angle input validation
+    linked_reqs: SRS-001
+    description: Validate that input shadow angles are within physically plausible bounds (0–90 degrees) before computing the circumference estimate.
+  # Add your own design spec items below this line

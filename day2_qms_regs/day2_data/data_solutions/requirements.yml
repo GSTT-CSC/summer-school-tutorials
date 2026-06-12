@@ -1,0 +1,69 @@
+requirements:
+  - id: SRS-001
+    title: Accept hand X-ray DICOM inputs
+    type: Input/Output
+    description: The software MUST accept hand X-ray DICOM files with Modality equal to CR or DX.
+    linked_risk_control:
+    priority: v1.0.0
+  - id: SRS-002
+    title: Identify AP/PA hand X-ray images
+    type: Functional
+    description: The software MUST identify whether an input hand X-ray is an AP or PA image suitable for MCP measurement.
+    linked_risk_control: HZ-01-01
+    priority: v1.0.0
+  - id: SRS-003
+    title: Calculate metacarpal cortical percentage
+    type: Functional
+    description: The software MUST calculate Metacarpal Cortical Percentage for the second metacarpal using MCP = ((A - B) / A) x 100.
+    linked_risk_control:
+    priority: v1.0.0
+  - id: SRS-004
+    title: Match manual radiology measurement performance
+    type: Performance
+    description: The software MUST measure MCP A and B with performance equivalent to radiology manual measurements.
+    linked_risk_control:
+    priority: v1.0.0
+  - id: SRS-005
+    title: Maintain subgroup performance
+    type: Performance
+    description: The software MUST demonstrate equivalent performance across male and female patients, age groups, and ethnic groups.
+    linked_risk_control: HZ-03
+    priority: v1.0.0
+  - id: SRS-006
+    title: Return report to PACS within five minutes
+    type: Input/Output
+    description: The software MUST return a DICOM encapsulated PDF report result to the imaging study in PACS within five minutes.
+    linked_risk_control: HZ-05-01
+    priority: v1.0.0
+  - id: SRS-007
+    title: Reject oblique image views
+    type: Safety
+    description: The software MUST only act on AP or PA hand X-ray images and MUST reject or safely fail out for oblique views.
+    linked_risk_control: HZ-01-01
+    priority: v1.0.0
+
+sys_des_spec:
+  - id: SDS-001
+    title: DICOM input validation
+    linked_reqs: SRS-001
+    description: Validate that each input object is a DICOM hand X-ray and that the DICOM Modality tag is CR or DX before processing.
+  - id: SDS-002
+    title: Image view classifier
+    linked_reqs: SRS-002, SRS-007
+    description: Classify hand X-ray views as AP, PA, oblique, or unsupported, and continue MCP processing only for AP or PA images.
+  - id: SDS-003
+    title: Second metacarpal MCP measurement
+    linked_reqs: SRS-003, SRS-004
+    description: Locate the second metacarpal on suitable AP or PA images, measure A and B, and calculate MCP using the specified formula.
+  - id: SDS-004
+    title: Performance monitoring by subgroup
+    linked_reqs: SRS-005
+    description: Evaluate MCP measurement performance across sex, age, and ethnicity subgroups using the same acceptance criteria as the overall population.
+  - id: SDS-005
+    title: DICOM encapsulated PDF report generation
+    linked_reqs: SRS-006
+    description: Generate a DICOM encapsulated PDF report and route it back to the source imaging study in PACS within five minutes.
+  - id: SDS-006
+    title: Graceful failure reporting
+    linked_reqs: SRS-006, SRS-007
+    description: Catch processing, inference, measurement, artefact, and unsupported-view errors, and return a DICOM encapsulated PDF report describing the failure.

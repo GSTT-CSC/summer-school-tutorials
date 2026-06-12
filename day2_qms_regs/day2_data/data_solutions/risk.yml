@@ -1,0 +1,106 @@
+risk_levels:
+    - label: Low
+      description: Acceptable
+    - label: Medium
+      description: Investigate further risk reduction. Should be reduced as low as reasonably practicable.
+    - label: High
+      description: Unacceptable. Further risk mitigations are required.
+risk_probability_levels:
+    - label: Extremely Low
+      description: Extremely unlikely
+    - label: Low
+      description: Unlikely
+    - label: Medium
+      description: Somewhat likely
+    - label: High
+      description: Likely
+    - label: Extremely High
+      description: Extremely likely
+risk_severity_levels:
+    - label: Negligible
+      description: Inconvenience or temporary discomfort
+    - label: Minor
+      description: Results in temporary injury or impairment not requiring professional medical intervention
+    - label: Serious
+      description: Results in injury or impairment requiring professional medical intervention
+    - label: Critical
+      description: Results in permanent impairment or life-threatening injury
+    - label: Catastrophic
+      description: Results in patient death
+risk_acceptability_matrix:
+    - [Low, Low, Low, Low, Low]
+    - [Low, Low, Low, Low, Medium]
+    - [Low, Low, Low, Medium, Medium]
+    - [Low, Low, Medium, Medium, High]
+    - [Low, Medium, Medium, High, High]
+risks:
+    - hazard_id: HZ-01
+      hazard: False positive osteoporosis or osteopenia screening result
+      software_item: HandOsteo
+      causes: The software processes an unsupported oblique view as though it were AP or PA.<br>The MCP measurement is inaccurate.<br>The screening threshold or report interpretation is incorrect.
+      effects: The report incorrectly indicates osteoporosis or osteopenia risk.
+      harm: Unnecessary treatment, patient stress, and unnecessary radiation dose from follow-up DEXA imaging.
+      severity: Serious
+      likelihood: Medium
+      risk: Medium
+      risk_control: HZ-01-01 detects oblique images and prevents unsupported views from being used for MCP calculation.
+      residual_severity: Serious
+      residual_likelihood: Low
+      residual_risk: Low
+      comment: The result is intended to support clinical review rather than provide an autonomous diagnosis.
+    - hazard_id: HZ-02
+      hazard: False negative osteoporosis or osteopenia screening result
+      software_item: HandOsteo
+      causes: The wrong bone is identified for MCP calculation.<br>Abnormal anatomy such as an implant or missing appendage is not detected.<br>Image artefact affects the MCP measurement.
+      effects: The report incorrectly indicates no osteoporosis or osteopenia risk.
+      harm: Delayed diagnosis, delayed treatment, or missed referral for further assessment.
+      severity: Serious
+      likelihood: Medium
+      risk: Medium
+      risk_control: HZ-02-01 detects abnormal anatomy and HZ-02-02 detects image artefacts before MCP results are reported.
+      residual_severity: Serious
+      residual_likelihood: Low
+      residual_risk: Low
+      comment: Manual review and validation against radiology measurements are required to confirm acceptable performance.
+    - hazard_id: HZ-03
+      hazard: Reduced performance for patient subgroups or population changes
+      software_item: HandOsteo
+      causes: The development or validation data are not representative of the deployed patient population.<br>Patient demographics change over time.<br>Performance differs by sex, age, or ethnicity.
+      effects: MCP measurements or screening outputs are less accurate for one or more patient groups.
+      harm: Unequal access to accurate screening and delayed or unnecessary clinical follow-up.
+      severity: Serious
+      likelihood: Medium
+      risk: Medium
+      risk_control: Validate and monitor performance across sex, age, and ethnicity subgroups.
+      residual_severity: Serious
+      residual_likelihood: Low
+      residual_risk: Low
+      comment: Subgroup performance should be reviewed before release and monitored after deployment.
+    - hazard_id: HZ-04
+      hazard: Automation bias
+      software_item: HandOsteo
+      causes: Users place excessive trust in the software output.<br>The report does not clearly communicate limitations or failure states.
+      effects: A clinician may rely on the automated result without appropriate clinical review.
+      harm: Incorrect follow-up, unnecessary treatment, or missed treatment.
+      severity: Serious
+      likelihood: Low
+      risk: Medium
+      risk_control: Report output clearly labels the result as decision support and includes failure and limitation messages where applicable.
+      residual_severity: Serious
+      residual_likelihood: Extremely Low
+      residual_risk: Low
+      comment: Training and instructions for use should reinforce that HandOsteo is not a standalone diagnosis.
+    - hazard_id: HZ-05
+      hazard: Result not returned because of application failure
+      software_item: HandOsteo
+      causes: Inference fails.<br>MCP calculation fails.<br>Artefact or unsupported input handling fails.<br>PACS report generation or routing fails.
+      effects: No usable report is returned to the imaging study.
+      harm: Screening result is unavailable, causing delayed review or repeat work.
+      severity: Minor
+      likelihood: Medium
+      risk: Medium
+      risk_control: HZ-05-01 gracefully fails out and returns a DICOM encapsulated PDF report regardless of success or failure of inference and MCP calculation.
+      residual_severity: Minor
+      residual_likelihood: Low
+      residual_risk: Low
+      comment: The graceful failure report should be returned within the same five-minute target where technically possible.
