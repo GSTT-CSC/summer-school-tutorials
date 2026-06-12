@@ -2,6 +2,7 @@
 Auto-propagate @pytest.mark.req("SDS-XXX") into JUnit XML properties
 so that rdm can trace tests back to design-specification items.
 """
+
 import pytest
 
 

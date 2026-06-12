@@ -7,6 +7,7 @@ the fake DICOM files in day2_data/xray/dicom/ for lightweight integration tests.
 Run with:
     pytest src/unit_tests.py -v
 """
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -20,6 +21,7 @@ import pytest
 
 import sys
 import os
+
 if "src" not in sys.path:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
@@ -36,9 +38,10 @@ DICOM_DIR = Path("day2_data/xray/dicom")
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
+
 def _make_dataset(modality: str = "CR", view: str = "AP") -> pydicom.Dataset:
     """Return a minimal in-memory pydicom FileDataset with valid pixel data."""
-    
+
     file_meta = FileMetaDataset()
     file_meta.MediaStorageSOPClassUID = pydicom.uid.UID("1.2.840.10008.5.1.4.1.1.1")
     file_meta.MediaStorageSOPInstanceUID = pydicom.uid.generate_uid()
@@ -58,11 +61,12 @@ def _make_dataset(modality: str = "CR", view: str = "AP") -> pydicom.Dataset:
     ds.SamplesPerPixel = 1
     ds.PhotometricInterpretation = "MONOCHROME2"
     ds.PixelData = np.zeros((100, 100), dtype=np.uint8).tobytes()
-    
+
     return ds
 
 
 # ── SDS-001: DICOM input validation ──────────────────────────────────────────
+
 
 @pytest.mark.req("SDS-001")
 class TestDicomLoader:
@@ -85,8 +89,10 @@ class TestDicomLoader:
         """Non-CR/DX modalities are rejected with ValueError."""
         loader = DicomLoader()
         mock_ds = _make_dataset(modality=modality)
-        with patch("pydicom.dcmread", return_value=mock_ds), \
-             patch("pathlib.Path.exists", return_value=True):
+        with (
+            patch("pydicom.dcmread", return_value=mock_ds),
+            patch("pathlib.Path.exists", return_value=True),
+        ):
             with pytest.raises(ValueError, match="Unsupported modality"):
                 loader.load("fake.dcm")
 
@@ -103,13 +109,16 @@ class TestDicomLoader:
         """Every modality in ALLOWED_MODALITIES is accepted."""
         loader = DicomLoader()
         mock_ds = _make_dataset(modality=modality)
-        with patch("pydicom.dcmread", return_value=mock_ds), \
-             patch("pathlib.Path.exists", return_value=True):
+        with (
+            patch("pydicom.dcmread", return_value=mock_ds),
+            patch("pathlib.Path.exists", return_value=True),
+        ):
             ds = loader.load("fake.dcm")
         assert ds.Modality == modality
 
 
 # ── SDS-002: View classifier ──────────────────────────────────────────────────
+
 
 @pytest.mark.req("SDS-002")
 class TestViewClassifier:
@@ -147,6 +156,7 @@ class TestViewClassifier:
 
 
 # ── SDS-003: MCP measurement formula ─────────────────────────────────────────
+
 
 @pytest.mark.req("SDS-003")
 class TestMCPMeasurer:
@@ -206,6 +216,7 @@ class TestMCPMeasurer:
 
 
 # ── SDS-005 / SDS-006: Report generation ─────────────────────────────────────
+
 
 class TestReportGenerator:
     """SDS-005 and SDS-006 — report content for success and failure paths."""

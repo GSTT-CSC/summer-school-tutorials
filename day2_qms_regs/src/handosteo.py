@@ -5,6 +5,7 @@ The real system would load a DICOM hand X-ray, classify the view, measure the
 second metacarpal, and return a DICOM encapsulated PDF report to PACS.
 These stubs reproduce that interface without a trained model.
 """
+
 from __future__ import annotations
 
 import hashlib
@@ -46,11 +47,13 @@ class DicomLoader:
 
         modality = getattr(ds, "Modality", None)
         if modality not in ALLOWED_MODALITIES:
-            #raise ValueError(
+            # raise ValueError(
             #    f"Unsupported modality '{modality}'. "
             #    f"HandOsteo requires one of {ALLOWED_MODALITIES}."
-            #)
-            return ds  # <-- BUG: should raise error instead of returning invalid dataset
+            # )
+            return (
+                ds  # <-- BUG: should raise error instead of returning invalid dataset
+            )
         return ds
 
 
@@ -64,14 +67,12 @@ class ViewClassifier:
         if view in SUPPORTED_VIEWS:
             return view
         if view:
-            #raise ValueError(
+            # raise ValueError(
             #    f"View '{view}' is not supported. "
             #    "HandOsteo only processes AP or PA hand X-rays."
-            #)
+            # )
             return view  # <-- BUG: should raise error instead of returning unsupported view
-        raise ValueError(
-            "ViewPosition tag is missing or empty. Cannot classify view."
-        )
+        raise ValueError("ViewPosition tag is missing or empty. Cannot classify view.")
 
 
 class MCPMeasurer:
