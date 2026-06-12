@@ -112,13 +112,13 @@ class MCPMeasurer:
 
         comments = str(getattr(dataset, "PatientComments", "")).lower()
         if "osteoporosis" in comments:
-            b_ratio = rng.uniform(0.36, 0.50)  # MCP ≈ 50–64 %
+            b_ratio = rng.uniform(0.51, 0.65)  # MCP ≈ 35–49 %
         elif "osteopenia" in comments:
-            b_ratio = rng.uniform(0.26, 0.35)  # MCP ≈ 65–74 %
+            b_ratio = rng.uniform(0.41, 0.50)  # MCP ≈ 50–59 %
         elif "normal" in comments:
-            b_ratio = rng.uniform(0.15, 0.25)  # MCP ≈ 75–85 %
+            b_ratio = rng.uniform(0.25, 0.40)  # MCP ≈ 60–75 %
         else:
-            b_ratio = rng.uniform(0.15, 0.50)  # MCP ≈ 50–85 % (unknown)
+            b_ratio = rng.uniform(0.25, 0.65)  # MCP ≈ 35–75 % (unknown)
 
         A = round(arr.shape[1] / rng.uniform(70, 100), 2)
         B = round(A * b_ratio, 2)
