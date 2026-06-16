@@ -3,3 +3,4 @@ day4_model_training/2026/mlruns/
 day4_model_training/2026/runs/
 .DS_Store
 /.vscode
+/.venv
