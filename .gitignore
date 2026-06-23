@@ -11,3 +11,4 @@ venv/
 
 day2_qms_regs/day2_data/release/
 day2_qms_regs/care_process_diagram.svg
+/.vscode

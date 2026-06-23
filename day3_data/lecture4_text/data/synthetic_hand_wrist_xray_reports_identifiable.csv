@@ -1,0 +1,266 @@
+fake_patient_id,patient_name,nhs_number,dob,mrn,address,phone,gp_name,scan_datetime,report_datetime,report
+P100001,Ms Patricia Williams,433 218 1964,24/01/1952,RJ1133326,"130 Maple Road, Sutton, SE1 2BL",07303 850800,Dr N. Pereira,2024-01-02 09:16:00,2024-01-02 11:54:00,"Patient: Ms Patricia Williams  DOB: 24/01/1952  NHS No: 433 218 1964
+Hosp No: RJ1133326  Address: 130 Maple Road, Sutton, SE1 2BL  Tel: 07303 850800
+GP: Dr N. Pereira, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt XR Hand Lt Indications: 72F atraumatic base of thumb pain and reduced grip strength ?osteoarthritis Findings: No acute fracture or dislocation. Severe osteoarthritis of the first CMC joint with marked joint space narrowing, subchondral sclerosis and osteophyte formation. Mild STT joint degenerative change. Mild scattered DIP joint osteoarthritis. Impression: Severe first CMC osteoarthritis. No acute osseous injury. Reported By: Dr R. Whitfield (GMC000001) Reported On: 02/01/24"
+P100002,Mr James Robinson,026 542 3511,09/10/1983,RJ1197251,"155 Station Road, London, BR1 2DN",07847 581741,Dr N. Pereira,2024-01-03 11:29:00,2024-01-03 12:58:00,"Patient: Mr James Robinson  DOB: 09/10/1983  NHS No: 026 542 3511
+Hosp No: RJ1197251  Address: 155 Station Road, London, BR1 2DN  Tel: 07847 581741
+GP: Dr N. Pereira, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 41M punched wall, pain and swelling over ulnar border of hand ?fracture Findings: Acute mildly angulated fracture of the neck of the fifth metacarpal. No dislocation. Carpal alignment is preserved. No significant degenerative change. Conclusion: Boxer's fracture of the fifth metacarpal neck. Orthopaedic review advised. Reported By: Dr A. Hughes (GMC000002) Reported On: 03/01/24"
+P100003,Ms Grace Patel,959 310 3414,10/09/1996,RJ1996865,"117 Oak Drive, Bromley, SE5 2EN",07479 472528,Dr T. Adeyemi,2024-01-04 09:58:00,2024-01-04 14:55:00,"Patient: Ms Grace Patel  DOB: 10/09/1996  NHS No: 959 310 3414
+Hosp No: RJ1996865  Address: 117 Oak Drive, Bromley, SE5 2EN  Tel: 07479 472528
+GP: Dr T. Adeyemi, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt XR Scaphoid Lt Indications: 28F fall on outstretched hand, anatomical snuffbox tenderness ?scaphoid fracture Findings: No definite acute fracture identified on current radiographs. Carpal alignment is maintained. Joint spaces are preserved. A very subtle lucency across the scaphoid waist is favoured to represent a vascular channel, although an undisplaced fracture cannot be entirely excluded if symptoms are focal. Reported By: Dr C. Donnelly (GMC000003) Reported On: 04/01/24"
+P100004,Ms Emma Patel,283 276 4835,21/10/1945,RJ1817870,"207 Oak Drive, Bexley, CR0 1BJ",07374 169403,Dr T. Adeyemi,2024-01-05 09:52:00,2024-01-05 13:46:00,"Patient: Ms Emma Patel  DOB: 21/10/1945  NHS No: 283 276 4835
+Hosp No: RJ1817870  Address: 207 Oak Drive, Bexley, CR0 1BJ  Tel: 07374 169403
+GP: Dr T. Adeyemi, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 79F chronic hand pain with stiffness, deformity of fingers ?OA Findings: No acute osseous injury. Moderate to severe polyarticular osteoarthritis involving the DIP and PIP joints, greatest at the second and third DIP joints, with joint space narrowing, osteophytes and subchondral sclerosis. Moderate first CMC joint osteoarthritis. No erosive change. Conclusions: Polyarticular osteoarthritis. Reported By: Dr P. Mehta (GMC000004) Reported On: 05/01/24"
+P100005,Mr John Davies,767 242 3886,21/04/1958,RJ1375504,"93 Victoria Avenue, Bromley, SE13 7FP",07621 617488,Dr H. Bennett,2024-01-06 08:16:00,2024-01-06 09:21:00,"Patient: Mr John Davies  DOB: 21/04/1958  NHS No: 767 242 3886
+Hosp No: RJ1375504  Address: 93 Victoria Avenue, Bromley, SE13 7FP  Tel: 07621 617488
+GP: Dr H. Bennett, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt Indications: 66M fall from standing, wrist pain and swelling ?distal radius fracture Findings: Acute impacted dorsally angulated fracture of the distal radial metaphysis with extension towards the radiocarpal joint. Associated ulnar styloid fracture. No carpal dislocation. Background mild first CMC and STT osteoarthritis. Impression: Distal radius and ulnar styloid fractures. Orthopaedic review advised by Andrew. Reported By: Dr M. Fitzgerald (GMC000005) Reported On: 06/01/24"
+P100006,Ms Margaret Williams,269 166 9785,21/03/1969,RJ1363626,"30 Kingsway, Dartford, DA1 1GR",07887 772097,Dr K. Sharma,2024-01-07 11:29:00,2024-01-07 16:05:00,"Patient: Ms Margaret Williams  DOB: 21/03/1969  NHS No: 269 166 9785
+Hosp No: RJ1363626  Address: 30 Kingsway, Dartford, DA1 1GR  Tel: 07887 772097
+GP: Dr K. Sharma, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt XR Wrist Lt Indications: 55F pain at thumb base after gardening, reduced pinch grip ?degenerative change Findings: No acute fracture or dislocation. Moderate osteoarthritis at the first CMC joint with joint space loss, marginal osteophytes and mild subchondral sclerosis. Mild degenerative change at the STT joint. Remaining joint spaces are largely preserved. Reported By: Dr A. Hughes (GMC000006) Reported On: 07/01/24"
+P100007,Mr Mohammed Murphy,048 281 4896,15/03/1989,RJ1308573,"139 Kingsway, London, SE5 6HL",07713 439902,Dr J. Caldwell,2024-01-08 17:16:00,2024-01-08 22:21:00,"Patient: Mr Mohammed Murphy  DOB: 15/03/1989  NHS No: 048 281 4896
+Hosp No: RJ1308573  Address: 139 Kingsway, London, SE5 6HL  Tel: 07713 439902
+GP: Dr J. Caldwell, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 35M fall from bicycle, radial-sided wrist pain ?fracture Findings: Acute nondisplaced fracture through the waist of the scaphoid. Alignment of the carpus is maintained. No dislocation. No significant degenerative change. Conclusion: Undisplaced scaphoid waist fracture. Urgent orthopaedic/fracture clinic review advised. Reported By: Dr A. Hughes (GMC000007) Reported On: 08/01/24"
+P100008,Ms Susan Wilson,039 117 1828,08/05/1961,RJ1234628,"68 Kingsway, Orpington, SE13 8FL",07533 322086,Dr N. Pereira,2024-01-09 12:00:00,2024-01-09 17:50:00,"Patient: Ms Susan Wilson  DOB: 08/05/1961  NHS No: 039 117 1828
+Hosp No: RJ1234628  Address: 68 Kingsway, Orpington, SE13 8FL  Tel: 07533 322086
+GP: Dr N. Pereira, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 63F chronic index and middle finger pain, worse with use ?OA Findings: No acute fracture. Moderate osteoarthritis affecting the second and third DIP joints and second PIP joint with joint space narrowing and osteophyte formation. Mild first CMC joint osteoarthritis. No periarticular erosions. Reported By: Dr M. Fitzgerald (GMC000008) Reported On: 09/01/24"
+P100009,Ms Linda Okafor,509 839 3019,10/12/2000,RJ1842225,"9 Oak Drive, Croydon, SE13 1BJ",07626 349565,Dr K. Sharma,2024-01-10 16:41:00,2024-01-10 18:51:00,"Patient: Ms Linda Okafor  DOB: 10/12/2000  NHS No: 509 839 3019
+Hosp No: RJ1842225  Address: 9 Oak Drive, Croydon, SE13 1BJ  Tel: 07626 349565
+GP: Dr K. Sharma, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 24F fall during netball, wrist pain ?fracture Findings: No displaced fracture or dislocation. Radiocarpal and intercarpal alignment is normal. A faint linear density projected over the distal radius is likely external artefact rather than cortical injury. Joint spaces are preserved. Reported By: Dr C. Donnelly (GMC000009) Reported On: 10/01/24"
+P100010,Mr George Okafor,997 376 3114,05/09/1940,RJ1790993,"120 Maple Road, Croydon, BR1 6EP",07162 522179,Dr K. Sharma,2024-01-11 15:52:00,2024-01-11 18:32:00,"Patient: Mr George Okafor  DOB: 05/09/1940  NHS No: 997 376 3114
+Hosp No: RJ1790993  Address: 120 Maple Road, Croydon, BR1 6EP  Tel: 07162 522179
+GP: Dr K. Sharma, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 84M increasing hand stiffness and nodal swelling ?osteoarthritis Findings: No acute osseous abnormality. Severe polyarticular osteoarthritis involving multiple DIP and PIP joints with joint space narrowing, osteophytes, subchondral sclerosis and central erosive change at the third DIP joint suggestive of erosive osteoarthritis. Severe first CMC osteoarthritis. Impressions: Severe polyarticular osteoarthritis including erosive OA change. Reported By: Dr M. Fitzgerald (GMC000010) Reported On: 11/01/24"
+P100011,Ms Doris Williams,387 262 4733,07/04/1966,RJ1179046,"167 Kingsway, London, BR1 9AJ",07195 890170,Dr T. Adeyemi,2024-01-12 09:03:00,2024-01-12 10:42:00,"Patient: Ms Doris Williams  DOB: 07/04/1966  NHS No: 387 262 4733
+Hosp No: RJ1179046  Address: 167 Kingsway, London, BR1 9AJ  Tel: 07195 890170
+GP: Dr T. Adeyemi, requested by Dr S. Kapoor
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 58F fall on ice, pain and deformity of wrist ?fracture Findings: Acute comminuted intra-articular distal radius fracture with dorsal angulation and shortening. Acute fracture of the ulnar styloid. No radiocarpal dislocation. Background moderate first CMC osteoarthritis. Orthopaedic review advised. Reported By: Dr S. Kapoor (GMC000011) Reported On: 12/01/24"
+P100012,Mr Peter Walsh,602 606 4745,07/08/1978,RJ1543555,"125 High Street, Lewisham, SE13 9GR",07403 328275,Dr H. Bennett,2024-01-13 14:36:00,2024-01-13 17:16:00,"Patient: Mr Peter Walsh  DOB: 07/08/1978  NHS No: 602 606 4745
+Hosp No: RJ1543555  Address: 125 High Street, Lewisham, SE13 9GR  Tel: 07403 328275
+GP: Dr H. Bennett, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 46M shut hand in door, pain over distal phalanx middle finger ?fracture Findings: Acute transverse fracture through the tuft of the third distal phalanx with minimal displacement. No dislocation. Mild soft tissue swelling distally. No significant degenerative change. Reported By: Dr P. Mehta (GMC000012) Reported On: 13/01/24"
+P100013,Mr Andrew Clarke,500 978 8209,24/01/1993,RJ1632496,"18 Victoria Avenue, Bexley, SE1 3AQ",07222 697347,Dr T. Adeyemi,2024-01-14 10:28:00,2024-01-14 13:38:00,"Patient: Mr Andrew Clarke  DOB: 24/01/1993  NHS No: 500 978 8209
+Hosp No: RJ1632496  Address: 18 Victoria Avenue, Bexley, SE1 3AQ  Tel: 07222 697347
+GP: Dr T. Adeyemi, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Scaphoid Rt Indications: 31M fall while skateboarding, snuffbox tenderness ?scaphoid fracture Findings: No visible scaphoid fracture on these views, however the scaphoid waist is partly obscured by positioning and exposure is suboptimal. Carpal alignment is maintained. Consider repeat radiographs or MRI if symptoms persist. Impression: No definite fracture on limited radiographs. Reported By: Dr P. Mehta (GMC000013) Reported On: 14/01/24"
+P100014,Ms Fatima Jones,699 854 3530,03/10/1955,RJ1378517,"77 Park View, Greenwich, BR1 3GR",07869 176066,Dr H. Bennett,2024-01-15 09:20:00,2024-01-15 12:52:00,"Patient: Ms Fatima Jones  DOB: 03/10/1955  NHS No: 699 854 3530
+Hosp No: RJ1378517  Address: 77 Park View, Greenwich, BR1 3GR  Tel: 07869 176066
+GP: Dr H. Bennett, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt XR Wrist Lt Indications: 69F thumb base pain and swelling, longstanding ?OA Findings: No acute fracture or dislocation. Severe first CMC joint osteoarthritis with marked joint space narrowing, radial subluxation of the first metacarpal base, osteophytes and subchondral sclerosis. Moderate STT osteoarthritis. Mild DIP joint degenerative change. Reported By: Dr R. Whitfield (GMC000014) Reported On: 15/01/24"
+P100015,Ms Fatima Hughes,838 425 1355,03/02/1972,RJ1398830,"181 Station Road, Orpington, SE5 8HQ",07926 785743,Dr N. Pereira,2024-01-16 09:37:00,2024-01-16 12:51:00,"Patient: Ms Fatima Hughes  DOB: 03/02/1972  NHS No: 838 425 1355
+Hosp No: RJ1398830  Address: 181 Station Road, Orpington, SE5 8HQ  Tel: 07926 785743
+GP: Dr N. Pereira, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 52F atraumatic hand pain, query inflammatory arthropathy Findings: No acute fracture. Mild scattered osteoarthritis involving the DIP joints and first CMC joint. No convincing erosions, although assessment of the second and third MCP heads is mildly limited by overlap. Alignment is preserved. Reported By: Dr A. Hughes (GMC000015) Reported On: 16/01/24"
+P100016,Mr Robert Clarke,124 118 2442,22/05/2005,RJ1734210,"163 Station Road, Sutton, SE5 6BR",07600 363319,Dr H. Bennett,2024-01-17 17:31:00,2024-01-17 18:11:00,"Patient: Mr Robert Clarke  DOB: 22/05/2005  NHS No: 124 118 2442
+Hosp No: RJ1734210  Address: 163 Station Road, Sutton, SE5 6BR  Tel: 07600 363319
+GP: Dr H. Bennett, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 19M football injury, hyperextension of wrist ?fracture Findings: No acute fracture or dislocation. Carpal alignment is normal. Joint spaces are maintained. No focal osseous lesion. Conclusion: Normal wrist radiographs. Reported By: Dr A. Hughes (GMC000016) Reported On: 17/01/24"
+P100017,Ms Patricia Murphy,052 427 8687,02/05/1948,RJ1110139,"140 Maple Road, Greenwich, SE1 2GL",07696 679364,Dr T. Adeyemi,2024-01-18 15:49:00,2024-01-18 17:10:00,"Patient: Ms Patricia Murphy  DOB: 02/05/1948  NHS No: 052 427 8687
+Hosp No: RJ1110139  Address: 140 Maple Road, Greenwich, SE1 2GL  Tel: 07696 679364
+GP: Dr T. Adeyemi, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 76F worsening pain in fingers with bony swelling ?OA Findings: No acute fracture. Advanced osteoarthritis involving multiple DIP joints, most pronounced at the second, fourth and fifth DIP joints, with osteophytes, joint space narrowing and subchondral sclerosis. Moderate PIP joint degenerative change. Moderate first CMC osteoarthritis. Reported By: Dr R. Whitfield (GMC000017) Reported On: 18/01/24"
+P100018,Mr Michael Jones,053 315 8699,12/05/1964,RJ1885884,"205 High Street, Bexley, SE5 4HL",07125 288073,Dr K. Sharma,2024-01-19 14:20:00,2024-01-19 19:20:00,"Patient: Mr Michael Jones  DOB: 12/05/1964  NHS No: 053 315 8699
+Hosp No: RJ1885884  Address: 205 High Street, Bexley, SE5 4HL  Tel: 07125 288073
+GP: Dr K. Sharma, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 60M fall from ladder, wrist pain and swelling ?fracture Findings: Acute nondisplaced fracture of the radial styloid process extending to the radiocarpal articular surface. No carpal dislocation. Mild osteoarthritis of the first CMC and STT joints. Reported By: Dr M. Fitzgerald (GMC000018) Reported On: 19/01/24"
+P100019,Ms Grace Khan,160 733 7541,06/05/1990,RJ1960394,"50 Elm Close, Greenwich, SE5 4AR",07385 172792,Dr K. Sharma,2024-01-20 13:08:00,2024-01-20 18:47:00,"Patient: Ms Grace Khan  DOB: 06/05/1990  NHS No: 160 733 7541
+Hosp No: RJ1960394  Address: 50 Elm Close, Greenwich, SE5 4AR  Tel: 07385 172792
+GP: Dr K. Sharma, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 34F pain after twisting ring finger ?fracture Findings: Acute oblique fracture of the proximal phalanx of the fourth finger with minimal displacement. Alignment at the MCP and PIP joints is preserved. No dislocation. Impression: Minimally displaced fourth proximal phalanx fracture. Reported By: Dr L. Osei (GMC000019) Reported On: 20/01/24"
+P100020,Mr Robert Ahmed,850 142 9406,22/07/1954,RJ1213668,"202 Oak Drive, Bexley, DA1 7DR",07720 636265,Dr H. Bennett,2024-01-21 18:11:00,2024-01-21 21:34:00,"Patient: Mr Robert Ahmed  DOB: 22/07/1954  NHS No: 850 142 9406
+Hosp No: RJ1213668  Address: 202 Oak Drive, Bexley, DA1 7DR  Tel: 07720 636265
+GP: Dr H. Bennett, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt XR Hand Lt Indications: 70M chronic radial-sided wrist pain, no trauma ?OA Findings: No acute fracture. Moderate to severe osteoarthritis of the STT joint and first CMC joint with joint space loss, sclerosis and osteophytes. Mild radiocarpal degenerative change. No dislocation. Reported By: Dr R. Whitfield (GMC000020) Reported On: 21/01/24"
+P100021,Ms Fatima Okafor,608 835 6154,02/05/1979,RJ1753425,"130 Station Road, Bexley, CR0 2GN",07434 521947,Dr K. Sharma,2024-01-22 17:27:00,2024-01-22 18:20:00,"Patient: Ms Fatima Okafor  DOB: 02/05/1979  NHS No: 608 835 6154
+Hosp No: RJ1753425  Address: 130 Station Road, Bexley, CR0 2GN  Tel: 07434 521947
+GP: Dr K. Sharma, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 45F hand pain after fall, tenderness over fifth metacarpal ?fracture Findings: No clear acute fracture or dislocation. There is slight cortical irregularity at the base of the fifth metacarpal on one view only, possibly projectional. Correlate with point tenderness; repeat imaging may be helpful if symptoms persist. Reported By: Dr P. Mehta (GMC000021) Reported On: 22/01/24"
+P100022,Ms Mary Okafor,629 946 8041,22/07/1942,RJ1400850,"156 Oak Drive, Sidcup, SE5 7HQ",07552 563638,Dr T. Adeyemi,2024-01-23 08:57:00,2024-01-23 11:11:00,"Patient: Ms Mary Okafor  DOB: 22/07/1942  NHS No: 629 946 8041
+Hosp No: RJ1400850  Address: 156 Oak Drive, Sidcup, SE5 7HQ  Tel: 07552 563638
+GP: Dr T. Adeyemi, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt Indications: 82F fall on outstretched hand, wrist deformity ?fracture Findings: Acute dorsally displaced and impacted distal radius fracture with dorsal tilt of the distal articular surface. Associated ulnar styloid fracture. No radiocarpal dislocation. Moderate background first CMC osteoarthritis. Conclusion: Distal radius and ulnar styloid fractures. Orthopaedic review advised. Reported By: Dr P. Mehta (GMC000022) Reported On: 23/01/24"
+P100023,Ms Olivia Taylor,489 513 4334,03/11/1957,RJ1254511,"157 Church Lane, Sidcup, SE1 1BP",07524 760356,Dr N. Pereira,2024-01-24 12:20:00,2024-01-24 14:37:00,"Patient: Ms Olivia Taylor  DOB: 03/11/1957  NHS No: 489 513 4334
+Hosp No: RJ1254511  Address: 157 Church Lane, Sidcup, SE1 1BP  Tel: 07524 760356
+GP: Dr N. Pereira, requested by Dr S. Kapoor
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 67F chronic thumb pain, crepitus and reduced function ?OA Findings: No acute osseous injury. Severe osteoarthritis of the first CMC joint with bone-on-bone joint space loss, osteophytes, subchondral sclerosis and mild radial subluxation. Mild osteoarthritis of the IP joint of the thumb and scattered DIP joints. Impression: Severe thumb base osteoarthritis. Reported By: Dr S. Kapoor (GMC000023) Reported On: 24/01/24"
+P100024,Mr Andrew Evans,320 163 2872,13/08/1985,RJ1152657,"117 High Street, Sidcup, DA1 4HJ",07783 656932,Dr N. Pereira,2024-01-25 09:39:00,2024-01-25 12:19:00,"Patient: Mr Andrew Evans  DOB: 13/08/1985  NHS No: 320 163 2872
+Hosp No: RJ1152657  Address: 117 High Street, Sidcup, DA1 4HJ  Tel: 07783 656932
+GP: Dr N. Pereira, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 39M direct blow to wrist, local swelling ?fracture Findings: No definite acute fracture or dislocation. Carpal rows are normally aligned. Mild soft tissue swelling dorsally. A tiny ossific density posterior to the carpus could reflect old trauma or a small triquetral avulsion; appearances are not definitive. Reported By: Dr P. Mehta (GMC000024) Reported On: 25/01/24"
+P100025,Mr Daniel Robinson,868 727 7431,27/10/1951,RJ1980660,"125 Victoria Avenue, Dartford, SE13 5HQ",07550 181247,Dr K. Sharma,2024-01-26 15:55:00,2024-01-26 19:19:00,"Patient: Mr Daniel Robinson  DOB: 27/10/1951  NHS No: 868 727 7431
+Hosp No: RJ1980660  Address: 125 Victoria Avenue, Dartford, SE13 5HQ  Tel: 07550 181247
+GP: Dr K. Sharma, requested by Dr S. Kapoor
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt XR Wrist Lt Indications: 73M longstanding bilateral hand pain, assessing degenerative disease Findings: No acute fracture. Moderate polyarticular osteoarthritis, most pronounced at the first CMC, STT, second DIP and third DIP joints. Joint space narrowing, osteophyte formation and subchondral sclerosis are present. No erosive arthropathy. Reported By: Dr S. Kapoor (GMC000025) Reported On: 26/01/24"
+P100026,Ms Emma Davies,122 362 3165,18/06/2003,RJ1527398,"16 Victoria Avenue, Bexley, CR0 9EP",07498 907189,Dr N. Pereira,2024-01-27 10:38:00,2024-01-27 13:57:00,"Patient: Ms Emma Davies  DOB: 18/06/2003  NHS No: 122 362 3165
+Hosp No: RJ1527398  Address: 16 Victoria Avenue, Bexley, CR0 9EP  Tel: 07498 907189
+GP: Dr N. Pereira, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 21F finger injury playing basketball, pain at little finger PIP joint ?fracture Findings: Acute volar plate avulsion fracture at the base of the fifth middle phalanx. PIP joint alignment is maintained. Mild surrounding soft tissue swelling. Conclusion: Volar plate avulsion injury. Reported By: Dr C. Donnelly (GMC000026) Reported On: 27/01/24"
+P100027,Mr John Hughes,054 668 8934,16/07/1975,RJ1611945,"8 Elm Close, Greenwich, SE5 5EP",07784 812131,Dr J. Caldwell,2024-01-28 11:57:00,2024-01-28 14:31:00,"Patient: Mr John Hughes  DOB: 16/07/1975  NHS No: 054 668 8934
+Hosp No: RJ1611945  Address: 8 Elm Close, Greenwich, SE5 5EP  Tel: 07784 812131
+GP: Dr J. Caldwell, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Scaphoid Rt Indications: 49M fall on outstretched hand, persistent radial wrist pain ?scaphoid fracture Findings: Subtle nondisplaced fracture through the distal pole of the scaphoid. No avascular necrosis evident on radiographs. No dislocation. Mild first CMC osteoarthritis. Fracture clinic review advised. Reported By: Dr C. Donnelly (GMC000027) Reported On: 28/01/24"
+P100028,Ms Mary Robinson,806 990 1624,20/03/1963,RJ1584125,"84 Victoria Avenue, Sidcup, SE5 1DP",07434 453894,Dr J. Caldwell,2024-01-29 09:53:00,2024-01-29 15:36:00,"Patient: Ms Mary Robinson  DOB: 20/03/1963  NHS No: 806 990 1624
+Hosp No: RJ1584125  Address: 84 Victoria Avenue, Sidcup, SE5 1DP  Tel: 07434 453894
+GP: Dr J. Caldwell, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 61F painful nodules at DIP joints ?OA Findings: No acute fracture or dislocation. Mild to moderate osteoarthritis affecting multiple DIP joints with small osteophytes and joint space narrowing. Mild first CMC joint degenerative change. No erosions. Impressions: Mild to moderate hand osteoarthritis. Reported By: Dr L. Osei (GMC000028) Reported On: 29/01/24"
+P100029,Mr Thomas Murphy,170 805 3107,27/05/1967,RJ1890870,"160 High Street, Lewisham, SE1 4BJ",07229 596564,Dr H. Bennett,2024-01-30 10:49:00,2024-01-30 13:12:00,"Patient: Mr Thomas Murphy  DOB: 27/05/1967  NHS No: 170 805 3107
+Hosp No: RJ1890870  Address: 160 High Street, Lewisham, SE1 4BJ  Tel: 07229 596564
+GP: Dr H. Bennett, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 57M fall from bike, ulnar-sided wrist pain ?fracture Findings: No acute fracture identified. Distal radioulnar joint alignment is preserved. Mild degenerative change at the first CMC joint. Negative radiographs do not exclude a soft tissue injury. If persistent focal symptoms, follow-up imaging may be considered. Reported By: Dr P. Mehta (GMC000029) Reported On: 30/01/24"
+P100030,Ms Aisha Robinson,529 912 4198,09/12/1936,RJ1126925,"51 Church Lane, Orpington, CR0 7ER",07807 970917,Dr T. Adeyemi,2024-01-31 10:44:00,2024-01-31 14:16:00,"Patient: Ms Aisha Robinson  DOB: 09/12/1936  NHS No: 529 912 4198
+Hosp No: RJ1126925  Address: 51 Church Lane, Orpington, CR0 7ER  Tel: 07807 970917
+GP: Dr T. Adeyemi, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 88F reduced hand function and chronic pain ?osteoarthritis Findings: No acute fracture. Severe widespread osteoarthritis involving the first CMC joint and multiple DIP and PIP joints with marked joint space narrowing, osteophytes and subchondral sclerosis. Mild fixed flexion deformities of several interphalangeal joints. No dislocation. Conclusion: Severe widespread osteoarthritis. Reported By: Dr A. Hughes (GMC000030) Reported On: 31/01/24"
+P100031,Ms Linda Begum,506 716 5723,20/11/1960,RJ1556641,"158 Kingsway, Sidcup, SE5 9GN",07576 556732,Dr N. Pereira,2024-02-01 13:14:00,2024-02-01 18:59:00,"Patient: Ms Linda Begum  DOB: 20/11/1960  NHS No: 506 716 5723
+Hosp No: RJ1556641  Address: 158 Kingsway, Sidcup, SE5 9GN  Tel: 07576 556732
+GP: Dr N. Pereira, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt Indications: 64F fall in garden, pain over distal radius ?fracture Findings: Acute minimally displaced extra-articular distal radius fracture. No ulnar styloid fracture identified. Carpal alignment is preserved. Background moderate first CMC joint osteoarthritis. Reported By: Dr L. Osei (GMC000031) Reported On: 01/02/24"
+P100032,Mr Daniel Khan,737 996 5077,09/02/1987,RJ1992288,"91 Station Road, Greenwich, CR0 3EL",07386 725113,Dr K. Sharma,2024-02-02 16:29:00,2024-02-02 19:33:00,"Patient: Mr Daniel Khan  DOB: 09/02/1987  NHS No: 737 996 5077
+Hosp No: RJ1992288  Address: 91 Station Road, Greenwich, CR0 3EL  Tel: 07386 725113
+GP: Dr K. Sharma, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 37M crush injury to index finger ?fracture Findings: Acute comminuted fracture of the tuft of the second distal phalanx. No intra-articular extension. Alignment is maintained. Associated soft tissue swelling. Reported By: Dr P. Mehta (GMC000032) Reported On: 02/02/24"
+P100033,Mr John Ahmed,143 634 9575,03/04/1956,RJ1680358,"141 Oak Drive, Greenwich, DA1 6ER",07819 575786,Dr K. Sharma,2024-02-03 08:29:00,2024-02-03 09:03:00,"Patient: Mr John Ahmed  DOB: 03/04/1956  NHS No: 143 634 9575
+Hosp No: RJ1680358  Address: 141 Oak Drive, Greenwich, DA1 6ER  Tel: 07819 575786
+GP: Dr K. Sharma, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt XR Wrist Rt Indications: 68M chronic hand and wrist pain, no trauma ?degenerative change Findings: No acute osseous injury. Moderate osteoarthritis of the first CMC and STT joints. Mild radiocarpal joint space narrowing. Scattered mild DIP joint osteoarthritis. No erosions or chondrocalcinosis. Impression: Multifocal degenerative change. Reported By: Dr L. Osei (GMC000033) Reported On: 03/02/24"
+P100034,Ms Emma Khan,351 823 3742,24/02/1999,RJ1859782,"26 Victoria Avenue, Dartford, DA1 9FN",07332 478411,Dr T. Adeyemi,2024-02-04 13:40:00,2024-02-04 16:15:00,"Patient: Ms Emma Khan  DOB: 24/02/1999  NHS No: 351 823 3742
+Hosp No: RJ1859782  Address: 26 Victoria Avenue, Dartford, DA1 9FN  Tel: 07332 478411
+GP: Dr T. Adeyemi, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 25F FOOSH injury, pain and swelling ?fracture Findings: No acute fracture or dislocation is demonstrated, although the lateral view is mildly rotated. Carpal alignment is grossly normal. No significant degenerative change. Consider repeat imaging if symptoms localise to the scaphoid and persist. Reported By: Dr L. Osei (GMC000034) Reported On: 04/02/24"
+P100035,Ms Margaret Clarke,008 427 1094,09/03/1950,RJ1398151,"48 Maple Road, Dartford, BR1 8EN",07982 600935,Dr H. Bennett,2024-02-05 09:28:00,2024-02-05 14:36:00,"Patient: Ms Margaret Clarke  DOB: 09/03/1950  NHS No: 008 427 1094
+Hosp No: RJ1398151  Address: 48 Maple Road, Dartford, BR1 8EN  Tel: 07982 600935
+GP: Dr H. Bennett, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 74F thumb base pain, clinical OA Findings: No acute fracture. Severe first CMC osteoarthritis with joint space obliteration, prominent osteophytes, subchondral sclerosis and mild lateral subluxation. Moderate STT osteoarthritis. Mild degenerative change at the thumb IP joint. Reported By: Dr M. Fitzgerald (GMC000035) Reported On: 05/02/24"
+P100036,Mr David Evans,902 294 1310,03/08/1965,RJ1685181,"98 Park View, Sidcup, BR1 4HQ",07404 717113,Dr J. Caldwell,2024-02-06 13:28:00,2024-02-06 19:21:00,"Patient: Mr David Evans  DOB: 03/08/1965  NHS No: 902 294 1310
+Hosp No: RJ1685181  Address: 98 Park View, Sidcup, BR1 4HQ  Tel: 07404 717113
+GP: Dr J. Caldwell, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 59M swelling and pain of middle finger after fall ?fracture Findings: Acute intra-articular fracture at the base of the third middle phalanx involving the PIP joint. Minimal displacement. No dislocation. Mild scattered DIP osteoarthritis. Conclusion: Intra-articular fracture of the third middle phalanx base. Reported By: Dr L. Osei (GMC000036) Reported On: 06/02/24"
+P100037,Ms Fatima Nguyen,133 412 3284,20/01/1947,RJ1178711,"177 Park View, Dartford, SE5 1EP",07133 342720,Dr K. Sharma,2024-02-07 15:40:00,2024-02-07 21:27:00,"Patient: Ms Fatima Nguyen  DOB: 20/01/1947  NHS No: 133 412 3284
+Hosp No: RJ1178711  Address: 177 Park View, Dartford, SE5 1EP  Tel: 07133 342720
+GP: Dr K. Sharma, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 77F fall on outstretched hand, bruising over radial wrist ?fracture Findings: Acute fracture of the radial styloid process with minimal displacement. No additional fracture identified. No dislocation. Moderate osteoarthritis involving the first CMC and STT joints. Mild DIP and PIP joint osteoarthritis. Reported By: Dr C. Donnelly (GMC000037) Reported On: 07/02/24"
+P100038,Ms Emma Robinson,349 361 8328,22/02/1974,RJ1378535,"203 Station Road, Orpington, SE5 2AL",07866 964278,Dr N. Pereira,2024-02-08 15:24:00,2024-02-08 17:57:00,"Patient: Ms Emma Robinson  DOB: 22/02/1974  NHS No: 349 361 8328
+Hosp No: RJ1378535  Address: 203 Station Road, Orpington, SE5 2AL  Tel: 07866 964278
+GP: Dr N. Pereira, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 50F hand pain, query OA Findings: No acute fracture or dislocation. Early osteoarthritic change at the first CMC joint and several DIP joints with small marginal osteophytes and mild joint space narrowing. No erosive arthropathy. Impression: Early osteoarthritis. Reported By: Dr L. Osei (GMC000038) Reported On: 08/02/24"
+P100039,Mr George Williams,464 887 7195,23/08/1955,RJ1141797,"7 Church Lane, Lewisham, BR1 6FN",07790 976566,Dr N. Pereira,2024-02-09 10:30:00,2024-02-09 15:35:00,"Patient: Mr George Williams  DOB: 23/08/1955  NHS No: 464 887 7195
+Hosp No: RJ1141797  Address: 7 Church Lane, Lewisham, BR1 6FN  Tel: 07790 976566
+GP: Dr N. Pereira, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 69M ulnar-sided wrist pain, no trauma Findings: No acute fracture. Mild positive ulnar variance with degenerative cystic change in the lunate, in keeping with chronic ulnocarpal impaction. Mild first CMC osteoarthritis. No dislocation. Reported By: Dr P. Mehta (GMC000039) Reported On: 09/02/24"
+P100040,Mr John O'Brien,175 655 1251,02/10/1992,RJ1531641,"103 Kingsway, London, SE13 8DR",07565 192337,Dr K. Sharma,2024-02-10 16:31:00,2024-02-10 21:48:00,"Patient: Mr John O'Brien  DOB: 02/10/1992  NHS No: 175 655 1251
+Hosp No: RJ1531641  Address: 103 Kingsway, London, SE13 8DR  Tel: 07565 192337
+GP: Dr K. Sharma, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 32M laceration and pain after glass injury ?foreign body ?fracture Findings: No acute fracture or dislocation. No definite radiopaque foreign body identified, although overlying dressing artefact reduces sensitivity for tiny fragments. Joint spaces are preserved. Reported By: Dr L. Osei (GMC000040) Reported On: 10/02/24"
+P100041,Ms Sarah Williams,808 760 3850,28/07/1943,RJ1752878,"53 Station Road, Sutton, BR1 8HJ",07234 402020,Dr J. Caldwell,2024-02-11 15:12:00,2024-02-11 20:28:00,"Patient: Ms Sarah Williams  DOB: 28/07/1943  NHS No: 808 760 3850
+Hosp No: RJ1752878  Address: 53 Station Road, Sutton, BR1 8HJ  Tel: 07234 402020
+GP: Dr J. Caldwell, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt XR Wrist Lt Indications: 81F chronic pain and stiffness, worse at thumb base and fingers ?OA Findings: No acute fracture. Severe osteoarthritis at the first CMC joint and multiple DIP joints with marked joint space narrowing, bulky osteophytes and subchondral sclerosis. Moderate PIP joint osteoarthritis. Moderate STT degenerative change. Conclusions: Severe multifocal osteoarthritis. Reported By: Dr C. Donnelly (GMC000041) Reported On: 11/02/24"
+P100042,Ms Olivia Williams,932 480 8613,21/01/1980,RJ1335615,"214 High Street, Sidcup, SE1 8AR",07833 406039,Dr N. Pereira,2024-02-12 14:38:00,2024-02-12 16:48:00,"Patient: Ms Olivia Williams  DOB: 21/01/1980  NHS No: 932 480 8613
+Hosp No: RJ1335615  Address: 214 High Street, Sidcup, SE1 8AR  Tel: 07833 406039
+GP: Dr N. Pereira, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt Indications: 44F fall down stairs, wrist pain ?fracture Findings: Acute triquetral dorsal avulsion fracture seen on lateral view. No carpal dislocation. Radiocarpal alignment is maintained. Mild soft tissue swelling over the dorsum of the wrist. Impression: Dorsal triquetral avulsion fracture. Reported By: Dr C. Donnelly (GMC000042) Reported On: 12/02/24"
+P100043,Mr Mohammed Murphy,378 263 9820,16/08/1953,RJ1173201,"69 Maple Road, Dartford, CR0 7DQ",07843 413058,Dr N. Pereira,2024-02-13 10:47:00,2024-02-13 15:17:00,"Patient: Mr Mohammed Murphy  DOB: 16/08/1953  NHS No: 378 263 9820
+Hosp No: RJ1173201  Address: 69 Maple Road, Dartford, CR0 7DQ  Tel: 07843 413058
+GP: Dr N. Pereira, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 71M longstanding deformity and pain of fingers ?osteoarthritis Findings: No acute osseous abnormality. Moderate to severe osteoarthritis involving multiple DIP joints and the first CMC joint. There is joint space narrowing, osteophyte formation and subchondral sclerosis. No features of active inflammatory arthropathy. Reported By: Dr P. Mehta (GMC000043) Reported On: 13/02/24"
+P100044,Mr Robert Walsh,875 588 6752,15/03/2002,RJ1297816,"60 Elm Close, London, SE13 4FP",07425 880879,Dr J. Caldwell,2024-02-14 10:03:00,2024-02-14 10:45:00,"Patient: Mr Robert Walsh  DOB: 15/03/2002  NHS No: 875 588 6752
+Hosp No: RJ1297816  Address: 60 Elm Close, London, SE13 4FP  Tel: 07425 880879
+GP: Dr J. Caldwell, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt XR Scaphoid Lt Indications: 22M rugby injury, snuffbox tenderness ?scaphoid fracture Findings: No acute scaphoid or other wrist fracture seen. Carpal alignment is preserved. Joint spaces are normal. Given focal snuffbox tenderness, an occult scaphoid fracture cannot be excluded radiographically. MRI is recommended if symptoms persist. Reported By: Dr C. Donnelly (GMC000044) Reported On: 14/02/24"
+P100045,Ms Joan Evans,270 289 5174,22/07/1962,RJ1204555,"37 Elm Close, Bromley, DA1 8AR",07176 592296,Dr K. Sharma,2024-02-15 09:24:00,2024-02-15 15:03:00,"Patient: Ms Joan Evans  DOB: 22/07/1962  NHS No: 270 289 5174
+Hosp No: RJ1204555  Address: 37 Elm Close, Bromley, DA1 8AR  Tel: 07176 592296
+GP: Dr K. Sharma, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt Indications: 62F pain at DIP joints and thumb base ?OA Findings: No fracture or dislocation. Moderate osteoarthritis at the first CMC joint and second to fifth DIP joints with joint space narrowing and osteophytes. Mild PIP joint involvement. No erosive changes. Conclusion: Moderate hand osteoarthritis. Reported By: Dr L. Osei (GMC000045) Reported On: 15/02/24"
+P100046,Mr Henry Evans,586 578 0913,03/11/1971,RJ1346174,"24 Elm Close, Croydon, SE13 5BR",07878 764532,Dr H. Bennett,2024-02-16 11:05:00,2024-02-16 14:59:00,"Patient: Mr Henry Evans  DOB: 03/11/1971  NHS No: 586 578 0913
+Hosp No: RJ1346174  Address: 24 Elm Close, Croydon, SE13 5BR  Tel: 07878 764532
+GP: Dr H. Bennett, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt Indications: 53M fall from height, wrist pain and reduced range of movement ?fracture Findings: Acute intra-articular distal radius fracture with mild dorsal comminution and neutral tilt. No ulnar styloid fracture. Carpal alignment remains preserved. Mild first CMC osteoarthritis. Orthopaedic review advised. Reported By: Dr R. Whitfield (GMC000046) Reported On: 16/02/24"
+P100047,Ms Mary Begum,692 221 9694,02/01/1995,RJ1816318,"60 Park View, Dartford, SE5 8FL",07570 367729,Dr H. Bennett,2024-02-17 17:19:00,2024-02-17 20:54:00,"Patient: Ms Mary Begum  DOB: 02/01/1995  NHS No: 692 221 9694
+Hosp No: RJ1816318  Address: 60 Park View, Dartford, SE5 8FL  Tel: 07570 367729
+GP: Dr H. Bennett, requested by Dr M. Fitzgerald
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt Indications: 29F hyperextension injury to thumb ?fracture Findings: Acute small avulsion fracture at the ulnar base of the proximal phalanx of the thumb, compatible with ulnar collateral ligament avulsion injury. MCP joint alignment is maintained. Specialist hand review advised. Impression: Thumb UCL avulsion injury. Reported By: Dr M. Fitzgerald (GMC000047) Reported On: 17/02/24"
+P100048,Mr George Begum,217 594 6479,18/11/1959,RJ1986365,"28 Victoria Avenue, Bexley, CR0 4EP",07685 476395,Dr N. Pereira,2024-02-18 14:53:00,2024-02-18 19:10:00,"Patient: Mr George Begum  DOB: 18/11/1959  NHS No: 217 594 6479
+Hosp No: RJ1986365  Address: 28 Victoria Avenue, Bexley, CR0 4EP  Tel: 07685 476395
+GP: Dr N. Pereira, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Lt XR Wrist Lt Indications: 65M chronic radial wrist and thumb pain ?degenerative change Findings: No acute fracture. Moderate osteoarthritis of the first CMC and STT joints with joint space narrowing, sclerosis and osteophytes. Mild degenerative change at the radiocarpal joint. No dislocation. Reported By: Dr L. Osei (GMC000048) Reported On: 18/02/24"
+P100049,Ms Linda Begum,640 909 7433,27/01/2006,RJ1736553,"159 Station Road, Bromley, CR0 4GL",07743 201883,Dr H. Bennett,2024-02-19 16:31:00,2024-02-19 21:32:00,"Patient: Ms Linda Begum  DOB: 27/01/2006  NHS No: 640 909 7433
+Hosp No: RJ1736553  Address: 159 Station Road, Bromley, CR0 4GL  Tel: 07743 201883
+GP: Dr H. Bennett, requested by Dr L. Osei
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Lt Indications: 18F fall during dance, diffuse wrist pain ?fracture Findings: No acute fracture or dislocation. Normal carpal alignment. No focal osseous abnormality. Joint spaces are maintained. The examination is negative for an acute bony injury on these views. Reported By: Dr L. Osei (GMC000049) Reported On: 19/02/24"
+P100050,Ms Joan Robinson,521 456 2322,19/01/1944,RJ1924718,"70 High Street, Dartford, DA1 6FQ",07944 605254,Dr K. Sharma,2024-02-20 08:58:00,2024-02-20 10:14:00,"Patient: Ms Joan Robinson  DOB: 19/01/1944  NHS No: 521 456 2322
+Hosp No: RJ1924718  Address: 70 High Street, Dartford, DA1 6FQ  Tel: 07944 605254
+GP: Dr K. Sharma, requested by Dr C. Donnelly
+Guy's & St Thomas' NHS Foundation Trust
+XR Hand Rt XR Wrist Rt XR Scaphoid Rt Indications: 80F fall on outstretched hand, overlying tenderness and bruising ?fracture Findings: Acute fracture of the radial styloid process. No other acute fracture identified. No dislocation. Moderate to severe osteoarthritis with joint space narrowing, subchondral cysts and sclerosis involving the first CMC joint, STT joint and lunocapitate articulation. Moderate degenerative change of multiple PIP and DIP joints. Orthopaedic review advised. Reported By: Dr C. Donnelly (GMC000050) Reported On: 20/02/24"
+P100002,Mr Joseph Davies,123 685 1609,15/02/1983,RJ1377304,"173 Station Road, Orpington, DA1 2EN",07490 962367,Dr K. Sharma,2024-01-03 11:29:00,2024-01-03 12:58:00,"Patient: Mr Joseph Davies  DOB: 15/02/1983  NHS No: 123 685 1609
+Hosp No: RJ1377304  Address: 173 Station Road, Orpington, DA1 2EN  Tel: 07490 962367
+GP: Dr K. Sharma, requested by Dr A. Hughes
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 41M punched wall, pain and swelling over ulnar border of hand ?fracture Findings: Acute mildly angulated fracture of the neck of the fifth metacarpal. No dislocation. Carpal alignment is preserved. No significant degenerative change. Conclusion: Boxer's fracture of the fifth metacarpal neck. Orthopaedic review advised. Reported By: Dr A. Hughes (GMC000002) Reported On: 03/01/24"
+P100002,Mr Robert Khan,985 931 7461,01/08/1983,RJ1222343,"127 Church Lane, Croydon, SE5 1AN",07340 663658,Dr T. Adeyemi,2024-01-03 11:29:00,2024-01-03 12:58:00,"Patient: Mr Robert Khan  DOB: 01/08/1983  NHS No: 985 931 7461
+Hosp No: RJ1222343  Address: 127 Church Lane, Croydon, SE5 1AN  Tel: 07340 663658
+GP: Dr T. Adeyemi, requested by Dr R. Whitfield
+Guy's & St Thomas' NHS Foundation Trust
+XR Wrist Rt XR Hand Rt Indications: 41M punched wall, pain and swelling over ulnar border of hand ?fracture Findings: Acute mildly angulated fracture of the neck of the fifth metacarpal. No dislocation. Carpal alignment is preserved. No significant degenerative change. Conclusion: Boxer's fracture of the fifth metacarpal neck. Orthopaedic review advised. Reported By: Dr R. Whitfield (GMC000002) Reported On: 03/01/24 ."
+P100003,Ms Olivia Wilson,869 261 7962,24/11/1996,RJ1393328,"114 Victoria Avenue, Greenwich, SE1 6BP",07201 818987,Dr K. Sharma,2024-01-04 09:58:00,2024-01-05 09:15:00,"Patient: Ms Olivia Wilson  DOB: 24/11/1996  NHS No: 869 261 7962
+Hosp No: RJ1393328  Address: 114 Victoria Avenue, Greenwich, SE1 6BP  Tel: 07201 818987
+GP: Dr K. Sharma, requested by Dr P. Mehta
+Guy's & St Thomas' NHS Foundation Trust
+Addendum: XR Wrist Lt XR Scaphoid Lt Indications: 28F fall on outstretched hand, anatomical snuffbox tenderness ?scaphoid fracture Findings: Addendum to report dated 04/01/2024. Following clinical review and repeat radiographs, an undisplaced fracture through the waist of the scaphoid is now confirmed. Initial report updated accordingly. Impression: Confirmed undisplaced scaphoid waist fracture. Fracture clinic referral made. Reported By: Dr P. Mehta (GMC000003) Reported On: 05/01/24"
