@@ -1,0 +1,27 @@
+[project]
+name = "summerschool2026-day2-qms"
+version = "0.1.0"
+description = "HandOsteo Day 2 — QMS & regulatory materials"
+requires-python = ">=3.13"
+dependencies = [
+    "rdm",
+    "pandas",
+    "pytest",
+    "pydicom",
+    "notebook",
+    "ipytest",
+    "pillow",
+    "dicom2nifti",
+    "nibabel",
+    "svgwrite",
+    "ipython",
+    "pip>=26.1.2",
+    "pyyaml>=6.0.3",
+    "matplotlib>=3.11.0",
+    "setuptools<81",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "req: link a test to one or more design-specification IDs (e.g. SDS-001)",
+]

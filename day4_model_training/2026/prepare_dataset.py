@@ -45,7 +45,9 @@ def make_class0_labels(data_root: Path) -> list[str]:
     for txt in sorted(orig_dir.glob("*.txt")):
         lines = txt.read_text().splitlines()
         class0_lines = [l for l in lines if l.strip() and l.split()[0] == "0"]
-        (labels_dir / txt.name).write_text("\n".join(class0_lines) + "\n" if class0_lines else "")
+        (labels_dir / txt.name).write_text(
+            "\n".join(class0_lines) + "\n" if class0_lines else ""
+        )
         if class0_lines:
             valid_stems.append(txt.stem)
 
@@ -62,8 +64,8 @@ def split_stems(stems: list[str], val_frac: float, test_frac: float, seed: int):
     n_test = int(n * test_frac)
     n_val = int(n * val_frac)
     test = shuffled[:n_test]
-    val = shuffled[n_test: n_test + n_val]
-    train = shuffled[n_test + n_val:]
+    val = shuffled[n_test : n_test + n_val]
+    train = shuffled[n_test + n_val :]
     return train, val, test
 
 
@@ -113,7 +115,9 @@ def main():
     valid_stems = make_class0_labels(data_root)
 
     print("Step 2: Splitting …")
-    train, val, test = split_stems(valid_stems, args.val_frac, args.test_frac, args.seed)
+    train, val, test = split_stems(
+        valid_stems, args.val_frac, args.test_frac, args.seed
+    )
 
     print("Step 3: Copying files …")
     copy_split(train, "train", data_root, dataset_dir)
@@ -123,7 +127,9 @@ def main():
     print("Step 4: Writing data.yaml …")
     write_yaml(dataset_dir)
 
-    print(f"\nDone.  train={len(train)}  val={len(val)}  test={len(test)}  total={len(valid_stems)}")
+    print(
+        f"\nDone.  train={len(train)}  val={len(val)}  test={len(test)}  total={len(valid_stems)}"
+    )
 
 
 if __name__ == "__main__":

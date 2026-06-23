@@ -1,0 +1,6 @@
+- date: 21-06-240BC
+  release_id: v0.0
+  changes:
+      - Initial release of EarthMeasurer.
+      - Accepts noon shadow angle observations at Alexandria and Syene as inputs.
+      - Computes Earth circumference estimate using shadow angle and known north-south separation distance.

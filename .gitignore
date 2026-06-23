@@ -2,5 +2,13 @@ day4_model_training/2026/content/
 day4_model_training/2026/mlruns/
 day4_model_training/2026/runs/
 .DS_Store
+
+__pycache__/
+*.pyc
+*.pyo
+.venv*/
+venv/
+
+day2_qms_regs/day2_data/release/
+day2_qms_regs/care_process_diagram.svg
 /.vscode
-/.venv

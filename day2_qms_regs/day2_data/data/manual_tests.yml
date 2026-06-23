@@ -1,0 +1,9 @@
+- id: SRS-001
+  priority: v1.0.0
+  test: Record the shadow angle of a gnomon at Alexandria at noon on the summer solstice, and confirm no shadow is cast at Syene on the same day. Enter both values and the known separation distance (~800 km) into the tool.
+  expected_outcome: The calculated Earth circumference is approximately 40,000 km.
+  result: tbc
+  note: Eratosthenes originally estimated ~39,375 km — within 2% of the modern value. Not bad for a stick.
+  performed_by: tbc
+  date: tbc
+# Add your own manual validation tests below this line
