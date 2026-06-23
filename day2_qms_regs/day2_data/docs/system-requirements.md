@@ -10,6 +10,7 @@ title: System Requirements Specification
 ---
 
 # System Requirements Specification
+<!-- [13485:5.2] -->
 
 ## General
 
@@ -67,52 +68,38 @@ The following stakeholders contributed to the requirements gathering process.
 
 ### Introduction
 
-{{device.name}} is intended to support osteoporosis and osteopenia screening from hand X-ray studies by calculating
-Metacarpal Cortical Percentage (MCP) from suitable AP or PA images. The software receives DICOM hand X-rays, checks that
-the image is suitable for processing, calculates MCP for the second metacarpal, and returns a DICOM encapsulated PDF
-report to the source imaging study in PACS.
+[TODO: write a short introduction describing what {{device.name}} is and the clinical problem it addresses]
 
 ### Users
-
+[TODO: identify all potential users of the software and how they would expect it to work]
 #### Clinicians
-
-Clinicians use the report as decision support when reviewing patients who may need further osteoporosis or osteopenia
-assessment. They expect the report to be returned to the imaging study, to clearly indicate whether processing succeeded,
-and to avoid reporting MCP results for unsupported images.
 
 #### Trust IT
 
-Trust IT users support deployment, PACS integration, monitoring, and incident response. They expect the software to
-handle DICOM inputs predictably, return outputs to the correct imaging study, and fail in a way that is visible to users.
-
 ### Use Environments
 
-#### Radiology imaging workflow
-
-Hand X-ray studies are acquired as part of routine care and stored in PACS. {{device.name}} processes eligible DICOM hand
-X-rays from the imaging workflow and returns a DICOM encapsulated PDF report to the same imaging study.
-
-#### Clinical review workflow
-
-Clinicians review the returned report alongside the source images and other clinical information. The software output is
-used as decision support and is not intended to replace clinical judgement.
+[EG:
+#### MRI scanner control room
+Once the MRI scan is completed of the prostate radiotherapy patient consented for MR only treatment planning, the radiographer in 
+the MRI control area will reconstruct the images and send all series in the study to PACS. At this point their work instruction
+would require them to send to the AI platform destination where the relevant series in the study would be processed for
+SyntheticCT generation. ]
 
 
 ### Use Cases 
 
 #### Use Case #1
 
-An AP or PA hand X-ray DICOM study with Modality CR or DX is available in PACS. {{device.name}} receives the study,
-confirms that the image view is suitable, calculates MCP for the second metacarpal, generates a DICOM encapsulated PDF
-report, and returns the report to the source imaging study within five minutes.
+[TODO: The first use case should layout the process of the successful use of the software from end to end, which runs 
+without error]
 
 #### Use Case #2
 
-An oblique hand X-ray, unsupported modality, abnormal anatomy, image artefact, or processing failure prevents reliable MCP
-calculation. {{device.name}} does not return an MCP result as though processing succeeded. It safely fails out and returns
-a DICOM encapsulated PDF report describing the failure state where technically possible.
+[TODO: complete another use case describing incorrect use of the application/wrong inputs/system failures\hardware 
+failures/ etc and how the application would successfully handle these errors ]
 
 ### Considerations
+<!-- [13485:6.3b,6.3c,7.1a,7.2.1b,7.2.1c7.2.1e]-->
 
 The following list of considerations has been compiled from relevant suggestions from ISO 13485, BSI 62304 and BSI 62366:
 
@@ -151,8 +138,10 @@ is GSTT only for projects built under this QMS)
 - requirements of IT network, Trust IT integration
 - user maintenance requirements
 - software update requirements
+- for non-dicom application consult information governance and information security for local requirements 
 
 ### User requirements
+<!-- [13485:7.2.1a,7.2.2a,7.2.2c,7.3.4d]-->
 
 | Reference | Requirement title    | Requirements Description  | Priority |                                                                                                                           
 |-----------|----------------------|---------------------------|----------|

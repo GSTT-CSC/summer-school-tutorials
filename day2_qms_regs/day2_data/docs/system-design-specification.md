@@ -10,6 +10,7 @@ title: Software Design Specification
 ---
 
 # Software Design Specification
+<!-- [13485:7.3.2a,7.3.2e,7.3.3,7.3.4d]-->
 
 ## General
 
@@ -59,34 +60,18 @@ understanding of
 3. the data inputs/outputs and flow of data among them
 4. how users or external products, including IT infrastructure and peripherals, interact with the system.
 
-The system receives DICOM hand X-ray studies from the imaging workflow, validates the input metadata and image view,
-performs MCP measurement for suitable AP or PA images, and returns a DICOM encapsulated PDF report to the source study in
-PACS. Unsupported views, abnormal anatomy, artefacts, and processing failures are routed through the graceful failure
-reporting path rather than being reported as successful MCP results.
-
-The high-risk design areas are input validation, AP/PA versus oblique view classification, second metacarpal
-localisation, MCP measurement, subgroup performance monitoring, and DICOM report return to PACS.
+[TODO: Add one or more diagrams to this section (e.g. block, state, flow, sequence) showing the functional units and
+software items, focusing on the high-risk parts of the application. Clearly delineate any SOUP / off-the-shelf items.]
 
 [[FDA-SW:ssad]]
 
 ## Software Items
 
-### DICOM Input Handler
+[TODO: Enumerate the software items that make up {{device.name}}, and document the design of each one.]
 
-Validates incoming DICOM hand X-ray objects and confirms that the Modality tag is CR or DX before processing.
+### Software Item A
 
-### Image View Classifier
-
-Classifies hand X-ray views as AP, PA, oblique, or unsupported. Only AP and PA images are passed to MCP measurement.
-
-### MCP Measurement Module
-
-Identifies the second metacarpal, measures A and B, and calculates MCP using the specified formula.
-
-### Report Generator
-
-Creates DICOM encapsulated PDF reports for successful processing and graceful failure states, then routes them back to the
-source imaging study in PACS.
+### Software Item B
 
 ## SOUP Software Items
 
@@ -150,5 +135,5 @@ No anomalies found that would result in incorrect behaviour for {{device.name}} 
 
 ## User Interface Mockups
 
-{{device.name}} returns results through DICOM encapsulated PDF reports in PACS. No separate interactive user interface is
-defined for this release.
+[TODO: If {{device.name}} has a user interface, add a sub-section per screen with a mock-up image, e.g.
+`![Login screen](./images/uimockups/login.png)`. If there is no separate interactive UI, state that here.]
