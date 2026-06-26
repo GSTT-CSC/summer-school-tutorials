@@ -92,41 +92,17 @@ def plot_dicom_inputs(xray_dir="day2_data/xray/dicom"):
     plt.show()
 
 
-def stub_behaviour_table(dicom_dir="day2_data/xray/dicom"):
-    """Run the stub pipeline over every DICOM and show what it accepts/rejects.
+def render_behaviour_table(rows):
+    """Render the stub-pipeline results collected in the notebook as a table.
 
-    The stub ships with two deliberate bugs, so several rows are wrongly ACCEPTED
-    — this table makes the bugs the verification tests must catch visible.
+    The notebook sets up the pipeline classes and runs them over each DICOM,
+    building ``rows`` (one dict per file). This helper just makes a nice table
+    out of them so that cell stays focused on *how the pipeline runs*.
+
+    The stub ships with two deliberate bugs, so several rows are wrongly
+    ACCEPTED — this table makes the bugs the verification tests must catch
+    visible.
     """
-    from src.handosteo import DicomLoader, ViewClassifier, MCPMeasurer, ReportGenerator
-
-    loader = DicomLoader()
-    clf = ViewClassifier()
-    meas = MCPMeasurer()
-    rep_gen = ReportGenerator()
-
-    rows = []
-    for dcm_path in sorted(Path(dicom_dir).glob("*.dcm")):
-        raw = pydicom.dcmread(str(dcm_path))
-        modality = getattr(raw, "Modality", "?")
-        try:
-            ds = loader.load(str(dcm_path))      # SDS-001: should reject non-CR/DX
-            view = clf.classify(ds)              # SDS-002: should reject oblique
-            result = meas.measure(ds)
-            report = rep_gen.generate(result)
-            outcome = report.decode().splitlines()[-1].replace("Classification: ", "")
-            rows.append({
-                "File": dcm_path.name, "Modality": modality,
-                "View": view, "MCP (%)": f"{result['MCP']:.1f}",
-                "HandOsteo says": outcome, "Status": "✓ ACCEPTED",
-            })
-        except ValueError:
-            rows.append({
-                "File": dcm_path.name, "Modality": modality,
-                "View": getattr(raw, "ViewPosition", "?"), "MCP (%)": "—",
-                "HandOsteo says": "—", "Status": "✗ REJECTED",
-            })
-
     df = pd.DataFrame(rows)
     display(df)
     print("\nNote how Ob_1, Ob_2, CT_1 and MR_1 are wrongly ACCEPTED — "
