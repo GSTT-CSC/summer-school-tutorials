@@ -25,7 +25,12 @@ import pydicom.uid
 import pytest
 from pydicom.dataset import FileMetaDataset
 
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+try:
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+except NameError:
+    # Running inside a notebook (e.g. %load): __file__ is undefined; the
+    # notebook's working directory is already the project root.
+    project_root = os.path.abspath(".")
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
@@ -156,3 +161,8 @@ class TestViewClassifier:
         ds = pydicom.dcmread(str(DICOM_DIR / "Ob_1.dcm"))
         with pytest.raises(ValueError):
             clf.classify(ds)
+
+if __name__ == "__main__":
+    import ipytest
+
+    ipytest.run("-qq")
