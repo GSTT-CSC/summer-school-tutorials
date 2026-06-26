@@ -137,6 +137,6 @@ def stub_behaviour_table(dicom_dir="day2_data/xray/dicom"):
 def show_doc(path):
     """Display a rendered QMS release document (release/*.md) as Markdown."""
     if Path(path).exists():
-        display(Markdown(open(path).read()))
+        display(Markdown(Path(path).read_text(encoding="utf-8")))
     else:
         print("Run the make cell above first to generate", path)
