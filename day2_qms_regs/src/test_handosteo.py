@@ -25,8 +25,9 @@ import pydicom.uid
 import pytest
 from pydicom.dataset import FileMetaDataset
 
-if "src" not in sys.path:
-    sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from src.constants import ALLOWED_MODALITIES, SUPPORTED_VIEWS
 from src.handosteo import DicomLoader, ViewClassifier
