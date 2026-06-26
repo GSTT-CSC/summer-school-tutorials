@@ -131,7 +131,6 @@ def stub_behaviour_table(dicom_dir="day2_data/xray/dicom"):
     display(df)
     print("\nNote how Ob_1, Ob_2, CT_1 and MR_1 are wrongly ACCEPTED — "
           "the bugs your tests must catch.")
-    return df
 
 
 def show_doc(path):
