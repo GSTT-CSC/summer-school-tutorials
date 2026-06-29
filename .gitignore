@@ -8,6 +8,7 @@ __pycache__/
 *.pyo
 .venv*/
 venv/
+day5_evaluation/2026/content/
 
 day2_qms_regs/day2_data/release/
 day2_qms_regs/care_process_diagram.svg
