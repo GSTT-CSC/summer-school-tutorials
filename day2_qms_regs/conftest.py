@@ -6,10 +6,16 @@ Lives at the project root so the hooks fire for both ``pytest src/...`` and the
 notebooks' ``%%ipytest`` cells, whose rootdir is this directory.
 """
 
+import os
+import sys
+
 import pytest
 
-from src.traceability import write_unit_test_record
+PROJECT_ROOT = os.path.dirname(__file__)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
+from src.traceability import write_unit_test_record
 # One record per executed test, accumulated across the session.
 _records: list[dict] = []
 
