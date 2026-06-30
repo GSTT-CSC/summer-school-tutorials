@@ -79,6 +79,8 @@ def write_unit_test_record(
             lines.append(f"| `{test}` | {icon} |")
         lines.append("")
 
-    text = "\n".join(lines)
-    Path(out_path).write_text(text, encoding="utf-8")
-    return text
+text = "\n".join(lines)
+out = Path(out_path)
+out.parent.mkdir(parents=True, exist_ok=True)
+out.write_text(text, encoding="utf-8")
+return text
