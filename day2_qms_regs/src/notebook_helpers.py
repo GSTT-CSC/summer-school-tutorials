@@ -117,7 +117,7 @@ def show_doc(path):
         print("Run the make cell above first to generate", path)
 
 
-def show_unit_test_record(path="day2_data/data/unit_test_record.md"):
+def show_unit_test_record(path="day2_data/release/unit_test_record.md"):
     """Display the auto-generated unit-test traceability record as Markdown."""
     if Path(path).exists():
         display(Markdown(Path(path).read_text(encoding="utf-8")))
