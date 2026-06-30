@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 DEFAULT_REQUIREMENTS = "day2_data/data/requirements.yml"
-DEFAULT_OUTPUT = "day2_data/data/unit_test_record.md"
+DEFAULT_OUTPUT = "day2_data/release/unit_test_record.md"
 
 _RESULT_ICON = {"passed": "✅ passed", "failed": "❌ failed", "skipped": "⚪ skipped"}
 
@@ -79,8 +79,8 @@ def write_unit_test_record(
             lines.append(f"| `{test}` | {icon} |")
         lines.append("")
 
-text = "\n".join(lines)
-out = Path(out_path)
-out.parent.mkdir(parents=True, exist_ok=True)
-out.write_text(text, encoding="utf-8")
-return text
+    text = "\n".join(lines)
+    out = Path(out_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text, encoding="utf-8")
+    return text

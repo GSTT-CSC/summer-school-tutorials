@@ -1,6 +1,6 @@
 """
 Collect @pytest.mark.sds("SDS-XXX") markers during a test run and write a
-unit-test traceability record (day2_data/data/unit_test_record.md).
+unit-test traceability record (day2_data/release/unit_test_record.md).
 
 Lives at the project root so the hooks fire for both ``pytest src/...`` and the
 notebooks' ``%%ipytest`` cells, whose rootdir is this directory.
