@@ -20,7 +20,7 @@ BS62304_class: B
 # "IIa" -
 # "IIb" -
 # "III" -
-mhra_class: "IIb"
+mhra_class: "IIa"
 
 # link ot the website page
 csc_website_url: https://gstt-csc.github.io/projects.html
