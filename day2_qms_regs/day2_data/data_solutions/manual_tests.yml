@@ -1,56 +1,16 @@
 - id: SRS-001
   priority: v1.0.0
-  test: Import representative hand X-ray DICOM files with Modality set to CR and DX.
-  expected_outcome: The software accepts CR and DX DICOM hand X-rays for processing and rejects unsupported modalities.
+  test: Import representative hand X-ray DICOM files with Modality set to CR and DX, plus an unsupported modality.
+  expected_outcome: The CR and DX hand X-rays are accepted for processing and the unsupported modality is rejected.
   result: tbc
-  note: Test with representative CR, DX, and unsupported modality examples.
+  note: Verifies SRS-001 (and SDS-001).
   performed_by: tbc
   date: tbc
 - id: SRS-002
   priority: v1.0.0
-  test: Process labelled AP, PA, oblique, and unsupported hand X-ray views.
-  expected_outcome: AP and PA images are identified as suitable for MCP measurement, and oblique or unsupported views are not passed to MCP processing.
+  test: Process labelled AP, PA, and oblique hand X-ray views.
+  expected_outcome: AP and PA images are processed for MCP measurement; oblique views are rejected.
   result: tbc
-  note: Partially validates HZ-01-01.
-  performed_by: tbc
-  date: tbc
-- id: SRS-003
-  priority: v1.0.0
-  test: Run MCP calculation on AP or PA hand X-rays with known A and B reference measurements.
-  expected_outcome: The reported MCP value equals ((A - B) / A) x 100 within the agreed tolerance.
-  result: tbc
-  note: Use cases should include typical and borderline measurement examples.
-  performed_by: tbc
-  date: tbc
-- id: SRS-004
-  priority: v1.0.0
-  test: Compare software A and B measurements against manual radiology reference measurements.
-  expected_outcome: Software measurement performance is equivalent to manual radiology measurement performance under the agreed acceptance criteria.
-  result: tbc
-  note: Acceptance criteria should be defined before release validation.
-  performed_by: tbc
-  date: tbc
-- id: SRS-005
-  priority: v1.0.0
-  test: Review validation performance stratified by sex, age group, and ethnicity.
-  expected_outcome: Each subgroup meets the same performance acceptance criteria as the overall validation set.
-  result: tbc
-  note: Partially validates population-change risk control HZ-03.
-  performed_by: tbc
-  date: tbc
-- id: SRS-006
-  priority: v1.0.0
-  test: Process a representative study and measure the time from input receipt to DICOM encapsulated PDF report availability in PACS.
-  expected_outcome: A DICOM encapsulated PDF report is returned to the source imaging study in PACS within five minutes.
-  result: tbc
-  note: Repeat for successful and graceful-failure processing paths.
-  performed_by: tbc
-  date: tbc
-- id: SRS-007
-  priority: v1.0.0
-  test: Submit oblique hand X-ray images to the application.
-  expected_outcome: The software rejects or safely fails out for oblique views and does not report an MCP result as though the image were AP or PA.
-  result: tbc
-  note: Partially validates HZ-01-01.
+  note: Verifies SRS-002 (and SDS-002); partially validates HZ-01.
   performed_by: tbc
   date: tbc

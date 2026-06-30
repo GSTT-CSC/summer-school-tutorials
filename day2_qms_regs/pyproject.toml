@@ -23,5 +23,5 @@ dependencies = [
 
 [tool.pytest.ini_options]
 markers = [
-    "req: link a test to one or more design-specification IDs (e.g. SDS-001)",
+    "sds: link a test to one or more system design specification IDs (e.g. SDS-001)",
 ]
